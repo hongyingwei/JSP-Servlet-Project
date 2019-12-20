@@ -1,0 +1,320 @@
+/*鍏叡绫�*/
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+.w {    /*鐗堝績*/
+    width: 1190px;
+    margin: 0 auto;
+}
+.fl {  /*宸﹀彸娴姩*/
+    float: left;
+}
+.fr {
+    float: right;
+}
+body {
+    background-color: #fff;
+}
+.f10 {  /*浜笢鐨勫瓧浣撲富鑹茶皟*/
+    color: #f10215!important;  /*鍔犲ぇf10鐨勬潈閲�*/
+}
+@font-face {  /*澹版槑瀛椾綋*/
+    font-family: 'icomoon'; /*     ../鏄繑鍥炰笂涓�绾ф枃浠跺す      */
+    src:  url('../fonts/icomoon.eot?kn47vy');
+    src:  url('../fonts/icomoon.eot?kn47vy#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?kn47vy') format('truetype'),
+    url('../fonts/icomoon.woff?kn47vy') format('woff'),
+    url('../fonts/icomoon.svg?kn47vy#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+input, button {
+    border: 0; /*input閮戒笉瑕佽竟妗�*/
+    outline: none;   /*鍙栨秷杞粨杈规*/
+    box-sizing: border-box;  /*璁╁姞padding鎴栬�卪argin鍊间箣鍚庣洅瀛愮殑澶у皬涓嶅彉*/
+}
+/*鍏叡绫荤粨鏉�*/
+/*澶撮儴鍥剧墖閾炬帴寮�濮�*/
+header {
+    height: 80px;
+    background-color: #ea4332;
+}
+/*蹇�熷鑸爮寮�濮�*/
+.shortcut {
+    height: 30px;
+    line-height: 30px;
+    background-color: #e3e4e5;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    color: #999;
+}
+.shortcut .fl {
+    margin-left: 210px;
+}
+.fr li {
+    float: left;
+}
+.space {  /*灏忕珫绾�*/
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 10px 12px 0;   /*涓� 宸﹀彸 涓�*/
+}
+.fr li a:hover {
+    color: #e33333;
+}
+.shortcut i {
+    font-family: "icomoon";
+    font-style: normal;  /*璁╁�炬枩鐨勪笉鍊炬枩*/
+    color: #ccc;
+}
+.mobile {
+    position: relative;
+}
+.mobile img {
+    position: absolute;
+    left: -3px;
+    top: 24px;
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+/*涓棿閮ㄥ垎寮�濮�*/
+.middle {
+    height: 140px;
+    position: relative;
+}
+.logo a {
+    display: block;
+    height: 170px;
+    width: 190px;
+    background: url(../images/logo.png) no-repeat;
+}
+.logo {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    box-shadow: 0px -10px 10px rgba(0, 0, 0, .3);
+}
+/*鎼滅储妗嗛儴鍒�*/
+.form {
+    width: 550px;
+    height: 35px;
+    background-color: #fff;
+    position: absolute;
+    top: 25px;
+    left: 320px;
+}
+.form input[type=text] {
+    height: 35px;
+    width: 498px;
+    float: left;
+    font-size: 14px;
+    padding-left: 6px;
+}
+.form button {
+    width: 50px;
+    height: 35px;
+    background-color: #f10215;
+    float: left;
+}
+.form button i {
+    font-family: "icomoon";
+    color: #fff;
+    font-style: normal;
+    font-size: 16px;
+}
+/*璐墿杞�*/
+.middle .shopCar {
+    width: 188px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: absolute;
+    top: 24px;
+    left: 900px;
+    text-align: center;
+}
+.shopCar i {
+    margin-right: 5px;
+    font-family: "icomoon";
+    font-style: normal;
+    color: #f10215;
+}
+.shopCar span {
+    width: 15px;
+    height: 15px;
+    background-color: #f10215;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 15px;
+}
+.hotwords {
+    position: absolute;
+    left: 320px;
+    top: 68px;
+}
+.hotwords a {
+    margin-right: 6px;
+}
+.hotwords a:first-child {
+    margin-right: 10px;
+    color: #f10215;
+}
+.navitems ul li{
+    float: left;
+    margin-left: 25px;
+}
+.navitems {
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+}
+.navitems li a {
+    color: #333;
+    font-size: 14px;
+}
+.navitems li a:hover {
+    color: #f10215;
+}
+.navitems .space {
+    margin: 16px -7px 0 18px;  /*涓婂彸涓嬪乏*/
+}
+.middle .supershop {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+/*椤甸潰搴曢儴鍒嗗紑濮�*/
+footer {
+    margin-top: 35px;
+    height: 500px;
+    background-color: #EAEAEA;
+}
+.service {
+    padding: 30px 0;
+    background-color: #f0f3ef;
+    border-bottom: 1px solid #DEDEDE;
+    overflow: hidden;
+}
+.service ul li {
+    width: 297px;
+    height: 43px;
+    position: relative;
+    line-height: 43px;
+    float: left;
+}
+.service li p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 82px;
+    margin-top: 10px;
+}
+.service li h5 {
+    position: absolute;
+    top: 0;
+    left: 38px;
+    width: 36px;
+    height: 43px;
+    background: url(../img/1.png) no-repeat;
+    text-indent: -999em;  /*棣栬缂╄繘*/
+}
+.service li:nth-child(2) h5 {
+    background: url(../img/2.png) no-repeat;
+}
+.service li:nth-child(3) h5 {
+    background: url(../img/3.png) no-repeat;
+}
+.service li:nth-child(4) h5 {
+    background: url(../img/4.png) no-repeat;
+}
+.help {
+    height: 200px;
+    border-bottom: 1px solid #DEDEDE;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.help dl {
+    width: 192px;
+    float: left;
+}
+.help dt,
+.coverage h5{
+    height: 30px;
+    font-size: 14px;
+    color: #666;
+}
+.help dd {
+    height: 22px;
+}
+.coverage {
+    width: 200px;
+    height: 150px;
+}
+.coverage h5 {
+    text-align: center;
+}
+.coverage p {
+    font-size: 12px;
+    color: #666;
+    line-height: 18px;
+}
+.coverage a {
+    display: block;
+    width: 180px;
+    margin-top: 5px;
+    text-align: right;
+}
+.coverage a:hover {
+    color: #f10215;
+}
+/*鐗堟潈閮ㄥ垎寮�濮�*/
+.copyright {
+    padding-top: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+}
+.copyright span {
+    margin: 0 7px;
+}
+.copyright a {
+    color: #666;
+}
+.copyright div {
+    margin-top: 20px;
+}
+.copyright div p {
+    line-height: 22px;
+}
+.foot-icon a {
+    display: inline-block;
+    width: 103px;
+    height: 33px;
+    background: url(../img/a_03.png) no-repeat;
+    marign-top: 20px;
+    margin: 20px 4px 0;
+}
+.copyright .foot-icon a:nth-child(2){
+    background: url(../img/b_05.png) no-repeat;
+}
+.copyright .foot-icon a:nth-child(3){
+     background: url(../img/c_07.png) no-repeat;
+ }
+.copyright .foot-icon a:nth-child(4){
+    background: url(../img/d_09.png) no-repeat;
+}
+.copyright .foot-icon a:nth-child(5){
+    background: url(../img/e_11.png) no-repeat;
+}

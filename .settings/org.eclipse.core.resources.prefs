@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//WebContent/css/base.css=UTF-8
+encoding//src/com/itcast/store/dao/daoImp/OrderDaoImp.java=UTF-8
+encoding//src/com/itcast/store/domain/OrderItem.java=UTF-8
+encoding//src/com/itcast/store/service/serivceImp/OrderServiceImp.java=UTF-8
+encoding//src/com/itcast/store/utils/JDBCUtils.java=UTF-8
+encoding//src/com/itcast/store/utils/MD5Utils.java=UTF-8
+encoding//src/com/itcast/store/utils/MailUtils.java=UTF-8
+encoding//src/com/itcast/store/utils/MailUtils2.java=UTF-8
+encoding//src/com/itcast/store/utils/MyBeanUtils.java=UTF-8
+encoding//src/com/itcast/store/utils/PaymentUtil.java=UTF-8
+encoding//src/com/itcast/store/utils/UUIDUtils.java=UTF-8
+encoding//src/com/itcast/store/utils/UploadUtils.java=UTF-8
+encoding//src/com/itcast/store/web/base/BaseServlet.java=UTF-8
+encoding//src/com/itcast/store/web/filter/EncodingFilter.java=UTF-8
+encoding//src/com/itcast/store/web/servlet/CartServlet.java=UTF-8
+encoding//src/com/itcast/store/web/servlet/OrderServlet.java=UTF-8
